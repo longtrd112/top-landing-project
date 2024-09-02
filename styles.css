@@ -9,3 +9,41 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: None;
+}
+
+a:visited {
+    color: #e5e7eb;
+}
+
+header,
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+
+}
+
+header .banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px
+}
+
+header .banner .logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9Faf8
+}
+
+header .right-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 18px;
+    font-size: 18px;
+    align-items: center;
+}
